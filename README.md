@@ -44,7 +44,7 @@ cd denoise_pretrain && python denoise_longformer.py \
     --data_dir ../UCRArchive_2018/ArrowHead \
     --gpu_nums 1 \
     --start_cuda_id 1\
-    --max_epoch 1000\
+    --max_epoch 500\
     --show_interval 50\
     --val_interval 1 \
     --seq_len 128 \
@@ -59,7 +59,7 @@ cd denoise_pretrain && python test_fz_part.py\
     --data_dir ../UCRArchive_2018/UWaveGestureLibraryX \
     --gpu_nums 1 \
     --start_cuda_id 1\
-    --max_epoch 1000\
+    --max_epoch 500\
     --show_interval 50\
     --val_interval 1 \
     --seq_len 128 \
@@ -75,7 +75,7 @@ cd dtw_pretrain && python dtw_longformer_train.py\
     --data_dir ../UCRArchive_2018/Mallat \
     --gpu_nums 1 \
     --start_cuda_id 0\
-    --max_epoch 1000\
+    --max_epoch 500\
     --show_interval 50\
     --val_interval 1 \
     --seq_len 128 \
@@ -90,7 +90,7 @@ cd dtw_pretrain && python test_fz_part.py \
     --data_dir ../UCRArchive_2018/Adiac \
     --gpu_nums 1 \
     --start_cuda_id 0\
-    --max_epoch 1000\
+    --max_epoch 500\
     --show_interval 50\
     --val_interval 1 \
     --seq_len 128 \
